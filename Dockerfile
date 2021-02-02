@@ -1,4 +1,4 @@
 FROM tomcat:8
 # Take the war and copy to webapps of Tomcat
 COPY target/*.war /usr/local/tomcat/webapps/myweb.war
-ENTRYPOINT ["java","-jar","jenkins-docker-image.war"]
+
